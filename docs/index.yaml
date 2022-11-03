@@ -3,10 +3,10 @@ entries:
   kube-janitor:
   - apiVersion: v1
     appVersion: v20.4.1
-    created: "2020-01-07T13:31:04.993386765+01:00"
+    created: "2022-11-03T11:46:13.243139514+01:00"
     description: Clean up (delete) Kubernetes resources after a configured TTL (time
       to live)
-    digest: e2a0eeafb37b688d4a3d8b4f56268abf55edce6ffd36e87b957d64acb5fd5d27
+    digest: f8606e40862bac748b6d049a266b7dabcee1a801e5ca4fb56853eb1a162f697c
     home: https://github.com/Revolgy-Business-Solutions/kube-janitor
     maintainers:
     - email: l2-cops@revolgy.com
@@ -15,7 +15,42 @@ entries:
     sources:
     - https://github.com/Revolgy-Business-Solutions/kube-janitor
     urls:
-    - kube-janitor-0.2.0.tgz
-    - kube-janitor-0.1.0.tgz
+    - https://revolgy-business-solutions.github.io/kube-janitor/kube-janitor-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v1
+    appVersion: v20.4.1
+    created: "2022-11-03T11:46:13.242936178+01:00"
+    description: Clean up (delete) Kubernetes resources after a configured TTL (time
+      to live)
+    digest: b2efa55631211af1203a38d5442ef3581f1ee6bc4ad6f0ec2cb609df26821307
+    home: https://github.com/hjacobs/kube-janitor
+    maintainers:
+    - email: henning@jacobs1.de
+      name: hjacobs
+    - email: me@mayppong.com
+      name: mayppong
+    name: kube-janitor
+    sources:
+    - https://github.com/hjacobs/kube-janitor
+    urls:
+    - https://revolgy-business-solutions.github.io/kube-janitor/kube-janitor-0.2.0.tgz
     version: 0.2.0
-generated: "2022-11-03T11:31:04.992860036+01:00"
+  - apiVersion: v1
+    appVersion: v19.12.0
+    created: "2022-11-03T11:46:13.242598987+01:00"
+    description: Clean up (delete) Kubernetes resources after a configured TTL (time
+      to live)
+    digest: e2a0eeafb37b688d4a3d8b4f56268abf55edce6ffd36e87b957d64acb5fd5d27
+    home: https://github.com/hjacobs/kube-janitor
+    maintainers:
+    - email: henning@jacobs1.de
+      name: hjacobs
+    - email: me@mayppong.com
+      name: mayppong
+    name: kube-janitor
+    sources:
+    - https://github.com/hjacobs/kube-janitor
+    urls:
+    - https://revolgy-business-solutions.github.io/kube-janitor/kube-janitor-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-11-03T11:46:13.242051638+01:00"
